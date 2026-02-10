@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(22, 22, 22);
+}
+
+section {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+section > div { 
+    padding: 60px 40px;
+    background-color: rgb(61, 60, 69);
+    max-width: 800px;
+}
+
+button, input {
+    font-size: 30px;
+}
+
+.equality, .display {
+    display: block; 
+    width: 100%;
+}
+
+.buttons {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: silver;
+}
